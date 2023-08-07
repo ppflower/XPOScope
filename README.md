@@ -1,11 +1,11 @@
-# XPOCheckerMini
+# XPOScope
 
 ## 项目构建说明
 1 将checkpoint预处理文件放置dynamicExerciser目录下
 
 2 在dynamicExerciser/data目录下创建 evaluate_classifier文件夹，page_text文件夹，picCache文件夹，screenshots文件夹（screenshots下需要有alipay,baidu,wechat三个子文件夹）
 
-3 在XPOCheckerMini根目录下创建MiniAppLog文件夹
+3 在XPOScope根目录下创建MiniAppLog文件夹
 
 
 
