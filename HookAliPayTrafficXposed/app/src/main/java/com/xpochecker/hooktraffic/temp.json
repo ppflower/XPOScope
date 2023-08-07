@@ -1,0 +1,41 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": {
+    "shopMetaInfo": {
+      "chainOnlineShopMode": 2,
+      "joinType": 1,
+      "kdtId": 116099074,
+      "lockStatus": 0,
+      "offlineShopOpen": false,
+      "onlineShopOpen": true,
+      "parentKdtId": 109334620,
+      "rootKdtId": 109334620,
+      "saasSolution": 2,
+      "shopName": "修正健康商城",
+      "shopRole": 2,
+      "shopTopic": 0,
+      "shopType": 7,
+      "subSolution": 2
+    },
+    "shopInfo": {
+      "address": "顺达路1369号修正大厦(顺达路)",
+      "area": "朝阳区",
+      "business": "138",
+      "businessName": "医药零售",
+      "city": "长春市",
+      "contactCountryCode": "+86",
+      "countyId": 220104,
+      "createdTime": "2022-07-14 17:01:10",
+      "intro": "",
+      "kdtId": 116099074,
+      "lockStatus": 0,
+      "logo": "https://img.yzcdn.cn/upload_files/2022/07/14/FlHAlTHll8YKaTNTGAuoBCnbNzZH.png",
+      "province": "吉林省",
+      "shopId": 85084131,
+      "shopName": "修正健康商城",
+      "shopType": 7
+    },
+    "showSwitchBtn": false
+  }
+}

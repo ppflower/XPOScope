@@ -29,11 +29,17 @@
 
    mini_app_start_num():主要是防止没跑完停下来，下次知道从哪儿开始继续跑，一般不需要动（会根据已经生成的报告书自动调节）
 
+2. 支付宝流量监听
+
+   需要将项目HookAliPayTrafficXposed进行apk打包安装至测试机上，并在测试机上进行本地端口8080配置，才可以进行支付宝流量监听功能。
+
+   
+
    
 
 ## 运行顺序
 
-1. 先启动stanford_nlp那个包
+1. 先启动stanford_nlp数据处理模块
 
    ```
    java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -preload tokenize,ssplit,pos,lemma,ner,parse,depparse -status_port 9000 -port 9000 -timeout 15000
