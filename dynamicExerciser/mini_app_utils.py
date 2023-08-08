@@ -232,4 +232,4 @@ def mkdir(target_dir):
 
 
 if __name__ == "__main__":
-    remove_screenshot_img(1,config.Mini_App_Type,"test")
+    remove_screenshot_img(1, config.MINI_APP_TYPE, "test")

@@ -25,9 +25,9 @@ TCP_PORT = 12345
 ALIPAY_TRANSFER_PORT = 9999
 BUFFER_SIZE = 1024
 MINI_APP_TEST_TIME = 60 * 10
-Word_Per_Element = 8
-Mini_App_Type = '医疗'
-Work_Book = "./AliPay_XPOCheckerMini_TestCases.xls"
+WORD_PER_ELEMENT = 8
+MINI_APP_TYPE = '医疗'
+WORK_BOOK = "./AliPay_XPOCheckerMini_TestCases.xls"
 
 All_Mini_App_Types = ['活动']
 # All_Mini_App_Types = ['书籍', '交通', '体育', '健康', '健身', '医疗', '商业', '地图', '天气',
@@ -59,7 +59,7 @@ def mini_apps_start_num(mini_app_plat):
         log_path += "wechat/"
     if mini_app_plat == 2:
         log_path += "baidu/"
-    log_path = log_path + Mini_App_Type + "/"
+    log_path = log_path + MINI_APP_TYPE + "/"
     if not os.path.exists(log_path):
         os.makedirs(log_path)
     count = 0

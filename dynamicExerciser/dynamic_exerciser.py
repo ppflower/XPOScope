@@ -113,5 +113,5 @@ if __name__ == "__main__":
     eventlet.monkey_patch()
     with eventlet.Timeout(config.MINI_APP_TEST_TIME, False):
         mini_app_test(app_package, mini_app_platform, mini_app_name, mobile_model)
-    mini_app_utils.remove_screenshot_img(mini_app_platform, config.Mini_App_Type, mini_app_name)
+    mini_app_utils.remove_screenshot_img(mini_app_platform, config.MINI_APP_TYPE, mini_app_name)
     print("Dynamic Exerciser end")

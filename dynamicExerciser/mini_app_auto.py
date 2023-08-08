@@ -222,7 +222,7 @@ class MiniAppAuto:
         word_num = 0
         for dump_str in dump_strs:
             word_num += len(dump_str)
-        if word_num / config.Word_Per_Element > 1.5 * element_num:
+        if word_num / config.WORD_PER_ELEMENT > 1.5 * element_num:
             return False
         else:
             return True

@@ -116,7 +116,7 @@ def generate_report(mini_app_name, mini_app_plat, url_traffic_map, url_page_inde
         report_path += "wechat/"
     if mini_app_plat == 2:
         report_path += "baidu/"
-    report_path = report_path + config.Mini_App_Type + "/" + mini_app_name + ".txt"
+    report_path = report_path + config.MINI_APP_TYPE + "/" + mini_app_name + ".txt"
     opt_image_map = generate_opt_image_map()
     with open(report_path, 'w') as f:
         for opt_count in opt_urls_map.keys():
@@ -187,7 +187,7 @@ def run_traffic_listening_server(url_traffic_map, url_page_index_map):
 
 
 def get_target_mini_app_names(type_name):
-    excel = xlrd.open_workbook(config.Work_Book)
+    excel = xlrd.open_workbook(config.WORK_BOOK)
     sheet = excel.sheet_by_index(0)
     cols_num = sheet.ncols
     target_col_vals = None
@@ -260,6 +260,7 @@ def get_target_mini_app_names(type_name):
 #             print(mini_app_name + "报告生成完成")
 
 if __name__ == "__main__":
+    os.system("adb reverse tcp:9999 tcp:9999")
     mini_app_platform = 2
     mobile_model = 1
     mini_app_name = "伊尔美重庆美容院加盟"
