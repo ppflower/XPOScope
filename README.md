@@ -26,7 +26,8 @@
 ├─AlipayTrafficHook.apk	  # 支付宝流量Hook Xposed模块
 ├─AliPay_XPOCheckerMini_TestCases.xls # 支付宝平台数据集
 ├─Baidu_XPOCheckerMini_TestCases.xls  # 百度平台数据集
-└─Wechat_XPOCheckerMini_TestCases.xls # 微信平台数据集
+├─Wechat_XPOCheckerMini_TestCases.xls # 微信平台数据集
+└─proofs                  # 开发者回复示例以及漏洞证明示例
 ```
 
 
